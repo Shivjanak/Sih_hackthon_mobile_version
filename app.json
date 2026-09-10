@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "NEXUS-NER Mobile",
+    "slug": "nexus-ner-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020617"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app requires access to live GPS location for real-time driver route navigation and hazard tracking.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app requires background GPS location tracking for emergency route dispatch.",
+        "NSCameraUsageDescription": "This app requires camera access to capture geo-tagged hazard photos in the field."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#020617"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

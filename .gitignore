@@ -1,0 +1,19 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Node dependencies
+node_modules/
+.expo/
+dist/
+
+# Python
+backend/__pycache__/
+backend/*.db
+**/__pycache__/
+*.pyc
+
+# Editor & OS
+.DS_Store
+.vscode/
+.idea/
